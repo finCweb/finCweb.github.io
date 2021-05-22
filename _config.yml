@@ -1,0 +1,91 @@
+# url is the full website URL
+# baseurl is the website's URL without the hostname
+url: "localhost:4000"
+baseurl: ""
+
+title: Finance Club
+description: A group to collaborate among finance enthusiasts and foster a permanent finance culture in the IITR campus.
+
+# avatar: "/img/avatar.jpg"
+
+# List of links in the navigation bar
+navbar-links:
+  Blog: "blog"
+  Events: "events_notdone"
+  Keywords: "keywords"
+  People: "people"
+  Investment Section: "investment"
+  About Us:
+    - What we do: ""
+    - Contact: "contact_not_done"
+
+
+# Change all these values or delete the ones you don't want (these appear in the footer).
+# Important: you must keep the "name" parameter, everything else you can remove
+author:
+  name: "Finance Club"
+  email: "financeclub101@gmaail.com"
+  github: financeclubwebsite/financeclubwebsite.github.io
+  facebook: https://www.facebook.com/financeclubiitr  # eg. daattali
+  instagram: https://www.instagram.com/finclubiitr/   # eg. daattali
+
+# Select which links to show in the footer
+footer-links-active:
+  github: true
+  email: true
+  rss: false
+  facebook: true
+  twitter: false
+  instagram: true
+
+# Select which share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  google: false
+  linkedin: true
+
+# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
+# disqus: "reconhub-github-io"
+
+# Google Analytics ID
+# google_analytics: "UA-83713279-1"
+
+# Output options (more information on Jekyll's site)
+timezone: "Europe/London"
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+kramdown:
+  input: GFM
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      social-share: true # add social media sharing buttons to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+
+# Exclude these files from production site
+exclude:
+  - LICENSE
+  - README.md
+
+gems:
+  - jekyll-paginate
+
+plugins:
+  - jekyll-paginate
