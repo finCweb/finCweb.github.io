@@ -1,0 +1,41 @@
+.home-main-section-aboutus{
+    padding-top: 45px;
+    padding-bottom: 42px;
+    padding-left: 75px;
+    padding-right: 50px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    /*flex-grow: 1;*/
+}
+
+.home-main-section-aboutus .right-main-aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-right: 6rem;
+    align-self: center;
+}
+.home-main-section-aboutus .left-main-aboutus{
+    font-family: Allerta, sans-serif;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-top: 0;
+    align-self: center;
+}
+
+.heading{
+    color: #075A19;
+    font-weight: 100;
+    font-size: 2.3em;
+}
+
+.about-para{
+    color: black;
+    font-family: Poppins, sans-serif;
+    font-weight: 200;
+    font-size: 1.1em;
+}

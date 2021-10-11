@@ -121,7 +121,7 @@ body{
 }
 
 .main-footer{
-    position:fixed;
+    height: 70px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -139,6 +139,3 @@ body{
     font-weight: 100;
 }
 
-.bottom-nav .ul{
-    align-self: right;
-}
