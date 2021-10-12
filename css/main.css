@@ -1,16 +1,25 @@
 @import url("pygment_highlights.css");
+/*Import Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+/*Shaurya .css*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+
 
 /* --- General --- */
 
 body {
   /* font-family: 'Lora', 'Times New Roman', serif; */
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  color: #404040;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, Poppins, sans-serif;
+  color: #075A19;
   position: relative;
-  background: #FFF;
-  background-image: url(../img/background.png);
   background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  font-size: 1.1rem;
+  min-height: 100vh;
 }
 p {
   line-height: 1.5;
@@ -97,6 +106,8 @@ img {
   }
 }
 
+
+
 /* --- Navbar --- */
 
 .navbar-custom {
@@ -121,7 +132,7 @@ img {
 .navbar-custom .navbar-brand:focus ,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-  color: #ccc;
+  color: #149C32;
 }
 
 @media only screen and (max-width: 365px) {
@@ -338,7 +349,7 @@ footer .theme-by {
 
 .post-preview a {
   text-decoration: none;
-  color: #404040;
+  /*color: #404040;*/
 }
 
 .post-preview a:focus,
@@ -359,7 +370,7 @@ footer .theme-by {
 .post-preview .post-meta,
 .post-heading .post-meta {
   color: #808080;
-  font-size: 18px;
+  font-size: 25px;
   font-style: italic;
   margin: 0 0 10px;
 }

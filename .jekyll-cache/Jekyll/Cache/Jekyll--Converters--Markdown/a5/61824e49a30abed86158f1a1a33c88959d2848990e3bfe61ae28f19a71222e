@@ -1,14 +1,4 @@
-/* Add any custom CSS to change the style of the website in this file */
-
-/* Example: change the navigation bar background to orange (this code is documented out)
-.navbar-custom {
-  background: orange;
-}
-*/
-
-/*Shaurya.css*/
-
-
+I"�<style>
 .full-height-grow{
     display: flex;
     flex-direction: column;
@@ -28,13 +18,13 @@
 .description{
     color: #164E03;
     font-weight: 150;
-    font-size: 1.2em;
+    font-size: 2.0em;
     margin-bottom: 1rem;
     margin-top: 0;
 }
 
 .home-main-section{
-    padding-top: 50px;
+    padding-top: 200px;
     padding-bottom: 148px;
     padding-left: 200px;
     padding-right: 75px;
@@ -61,4 +51,26 @@
     margin-top: 0;
     align-self: center;
 }
+</style>
 
+<!-- <div class="full-height-grow" style="margin: 0 auto; padding-top: 10px;"> -->
+<section class="home-main-section">
+    <div class="left-main">
+        <div>
+            <h1 style="display: grid;">
+                <span class="finc-name">FINANCE<br />CLUB</span>
+                <span class="iitr"><span style="color: #075A19;">IIT </span>₹OO₹K€€</span>
+            </h1>
+        </div>
+        <img src="images/iitr.png" width="440" height="105" />
+    </div>
+    <div class="right-main">
+        <span class="description">
+            A group to collaborate among finance<br /> enthusiasts and foster
+            a permanent<br /> finance culture in the IITR campus.
+        </span>
+        <img src="images/home-design.png" width="401" height="227" />
+    </div>
+</section>
+
+:ET

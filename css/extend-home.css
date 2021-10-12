@@ -2,7 +2,7 @@
 a.project-link:link,
 a.project-link:visited {
     text-decoration: none;
-    color: #404040;
+    /*color: #404040;*/
 }
 
 a.project-link:hover {

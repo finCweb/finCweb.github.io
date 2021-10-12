@@ -1,0 +1,21 @@
+I"<div class="full-height-grow" style="margin: 0 auto; padding-top: 10px;">
+<section class="home-main-section">
+    <div class="left-main">
+        <div>
+            <h1 style="display: grid;">
+                <span class="finc-name">FINANCE<br />CLUB</span>
+                <span class="iitr"><span style="color: #075A19;">IIT </span>₹OO₹K€€</span>
+            </h1>
+        </div>
+        <img src="images/iitr.png" width="440" height="105" />
+    </div>
+    <div class="right-main">
+        <span class="description">
+            A group to collaborate among finance<br /> enthusiasts and foster
+            a permanent<br /> finance culture in the IITR campus.
+        </span>
+        <img src="images/home-design.png" width="401" height="227" />
+    </div>
+</section>
+</div>
+:ET

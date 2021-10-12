@@ -1,0 +1,129 @@
+I"�<p><em>Note: this document is work in progress! Please send comments / suggestions
+using disqus, by posting issues or via pull requests. 
+<a href="https://github.com/reconhub/reconhub.github.io/blob/master/resources/guidelines.md">You can follow this link to access and edit the file that created this 
+page</a></em>.</p>
+
+<p>This document provides guidelines for package development which are meant to
+promote clearer, robust, maintainable, and well-documented code. It borrows
+largely from the <a href="https://github.com/ropensci/software-review"><em>rOpenSci</em> onboarding
+guidelines</a> and from <a href="http://discourse.repidemicsconsortium.org/t/scoring-system-for-r-packages/31/2">this
+post</a>
+on the RECON forum. See <a href="#credits">list of contributors</a> for more information
+on people who shaped this.</p>
+
+<h2 id="package-development-guidelines">Package development guidelines</h2>
+
+<h3 id="general-guidelines-for-r-code">General Guidelines for R code</h3>
+
+<p>You can set up an R package skeleton with the
+<a href="https://github.com/reconhub/recontools#readme">recontools</a> package, which will
+set up your package with the templates for using github, continous integration,
+and testing.</p>
+
+<p>When writing your package, we recommend following the <a href="https://devguide.ropensci.org/"><em>rOpenSci</em> package
+development guidelines</a>, with the
+following additions / changes:</p>
+
+<ul>
+  <li>
+    <p>RECON does not use any package submission system. If you would like your
+package to integrate RECON, be in touch with us directly (click on email link
+at the bottom of this page).</p>
+  </li>
+  <li>
+    <p>Packages should be hosted on <a href="https://github.com/">github</a>, or a similar
+platform with a (ideally, distributed) version control system; we recommend
+keeping the <em>master</em> branch as functional, and using other branches for more
+adventurous changes.</p>
+  </li>
+  <li>
+    <p>When adding new functionality, <strong>write your tests before you write your 
+functions</strong>. This will provide better protection against bugs because you are
+writing the function based on what you expect it to do as opposed to writing
+the test based on what lines of code you want to cover.</p>
+  </li>
+  <li>
+    <p>Never comment out tests. If a test is failing for a good reason (e.g. you are
+performing a large refactor), then skip it using the <code class="language-plaintext highlighter-rouge">skip()</code> function from
+testthat. This allows you or others to easily track down and audit the test
+failures.</p>
+  </li>
+  <li>
+    <p>Packages should be submitted to a
+<a href="https://github.com/MangoTheCat/goodpractice/"><em>goodpractice</em></a> run to detect
+possible issues.</p>
+  </li>
+  <li>
+    <p>The <code class="language-plaintext highlighter-rouge">README.Rmd</code> should provide an overview of the main functionalities of
+the package, and point to more detailed resources (vignettes, tutorials,
+open-access publications) where relevant.</p>
+  </li>
+  <li>
+    <p>Vignettes are strongly recommended for more detailed documentation, including
+worked examples, details of analyses and methods, customisation of graphics,
+and object classes. The <em>Rmarkdown</em> (<code class="language-plaintext highlighter-rouge">.Rmd</code>) format is preferred to Sweave
+(<code class="language-plaintext highlighter-rouge">.Rnw</code>) as it is easier to convert to <code class="language-plaintext highlighter-rouge">.html</code> pages.</p>
+  </li>
+  <li>
+    <p>We <strong>strongly</strong> recommend the use of
+<a href="https://cran.r-project.org/package=roxygen2"><em>roxygen2</em></a> for
+documentation, as it makes documentation easier to maintain.</p>
+  </li>
+  <li>
+    <p>We encourage the use of “<code class="language-plaintext highlighter-rouge">::</code>” when importing functions from non-core
+packages, as it makes dependencies on foreign code more visible.</p>
+  </li>
+  <li>
+    <p>We encourage the use of <a href="http://github.com/r-lib/pkgdown"><em>pkgdown</em></a> to
+generate a website for the package. For an example, see the
+<a href="https://github.com/reconhub/incidence"><em>incidence</em></a> package and <a href="https://www.repidemicsconsortium.org/incidence/">its
+website</a>.</p>
+  </li>
+</ul>
+
+<h3 id="recommended-github-etiquette">Recommended GitHub etiquette</h3>
+
+<p>When collaborating with other people on a package, it’s easy to feel overwhelmed
+with keeping track of a moving target. Here, we’ll outline a few practices that
+will help make the experience easier:</p>
+
+<ul>
+  <li>
+    <p><strong>Define a clear code of conduct</strong>. You can use <code class="language-plaintext highlighter-rouge">usethis::use_code_of_conduct()</code> to
+template it if you haven’t done so already.</p>
+  </li>
+  <li>
+    <p><strong>Add a CONTRIBUTING.md file</strong>. This file will describe the kind of
+contributions you expect from the community in terms of code, test, and 
+documentation style. You can fine an example CONTRIBUTING file in the 
+<a href="https://github.com/grunwaldlab/poppr/blob/master/CONTRIBUTING.md">poppr R package</a></p>
+  </li>
+  <li>
+    <p><strong>Lock the master branch</strong>. If code works on your computer, it’s no guarantee
+that it will work on an external machine like <em>travis</em> or <em>appveyor</em>. By
+locking the master branch, you can ensure that all code must pass through a
+pull request before it can be incorporated and, thus must have some level of
+vetting.</p>
+  </li>
+  <li>
+    <p><strong>Set up 2 factor authentication</strong>. This will help prevent your account from
+being hacked. If you use this option, you will also want to use the ssh
+protocol instead of the https protocol.</p>
+  </li>
+</ul>
+
+<h2 id="credits">Credits</h2>
+
+<p>Besides the <a href="https://ropensci.org/"><em>rOpenSci</em></a> whose guidelines we largely
+adopted, the following people contributed to these guidelines; in alphabetic
+order:</p>
+
+<ul>
+  <li>Gabor Csardi</li>
+  <li>Rich Fitzjohn</li>
+  <li>Thibaut Jombart</li>
+  <li>Zhian N. Kamvar</li>
+  <li>Noam Ross</li>
+</ul>
+
+:ET

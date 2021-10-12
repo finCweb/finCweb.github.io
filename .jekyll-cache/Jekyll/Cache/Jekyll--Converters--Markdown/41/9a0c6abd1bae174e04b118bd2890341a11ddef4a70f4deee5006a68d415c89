@@ -1,0 +1,39 @@
+I"Â<p><em>Note: this document is work in progress! Please send comments / suggestions
+using disqus, by posting issues or via pull requests. The file generating this
+page is
+<a href="https://github.com/reconhub/reconhub.github.io/blob/master/review.md">there</a></em>.</p>
+
+<p>This document provides guidelines for package review which are meant to promote
+clearer, robust, maintainable, and well-documented code. It borrows largely
+from the <a href="https://github.com/ropensci/onboarding/"><em>rOpenSci</em> onboarding
+guidelines</a> and from <a href="http://discourse.repidemicsconsortium.org/t/scoring-system-for-r-packages/31/2">this
+post</a>
+on the RECON forum. See <a href="#credits">list of contributors</a> for more information
+on people who shaped this.</p>
+
+<h2 id="package-review-guidelines">Package review guidelines</h2>
+
+<ul>
+  <li>
+    <p>run <a href="https://github.com/MangoTheCat/goodpractice/"><em>goodpractice</em></a> to detect possible issues.</p>
+  </li>
+  <li>
+    <p>go through the <a href="https://ropensci.github.io/dev_guide/reviewtemplate.html"><em>rOpenSci</em> checklist</a></p>
+  </li>
+</ul>
+
+<h2 id="credits">Credits</h2>
+
+<p>Besides the <a href="http://ropensci.org/"><em>rOpenSci</em></a> whose guidelines we largely
+adopted, the following people contributed to these guidelines; in alphabetic
+order:</p>
+
+<ul>
+  <li>Gabor Csardi</li>
+  <li>Rich Fitzjohn</li>
+  <li>Thibaut Jombart</li>
+  <li>Zhian N. Kamvar</li>
+  <li>Noam Ross</li>
+</ul>
+
+:ET

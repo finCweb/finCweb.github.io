@@ -1,0 +1,56 @@
+
+
+.full-height-grow{
+    display: flex;
+    flex-direction: column;
+}
+
+.finc-name{
+    font-weight: 100;
+    font-size: 2.3em;
+}
+
+.iitr{
+    color: #149C32;
+    font-weight: 100;
+    font-size: 2.3em;
+}
+
+.description{
+    color: #164E03;
+    font-weight: 150;
+    font-size: 1.2em;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+.home-main-section{
+    padding-top: 50px;
+    padding-bottom: 148px;
+    padding-left: 200px;
+    padding-right: 75px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    /*flex-grow: 1;*/
+}
+
+.home-main-section .right-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-right: 6rem;
+    align-self: center;
+}
+
+.home-main-section .left-main{
+    font-family: Allerta, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+    align-self: center;
+}
+
+
