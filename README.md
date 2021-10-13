@@ -1,4 +1,4 @@
-![FinC logo](/img/finC_logo.jpg)
+![FinC logo](img/finC_logo.jpg)
 
 ## Welcome to the development page of Finance Club IITR website
 
