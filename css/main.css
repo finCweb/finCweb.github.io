@@ -111,9 +111,9 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #E5E5E5;
-  border-bottom: 1px solid #294481;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: white;
+  border-bottom: 1px solid #075A19;
+  font-family: Poppins, sans-serif;
 }
 
 .navbar-custom .nav li a {
