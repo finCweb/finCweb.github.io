@@ -1,6 +1,6 @@
 # url is the full website URL
 # baseurl is the website's URL without the hostname
-url: "localhost:4000"
+url: "https://fincweb.github.io/"
 baseurl: ""
 
 title: Finance Club

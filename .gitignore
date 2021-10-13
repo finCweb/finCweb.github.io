@@ -9,3 +9,6 @@ R/.RData
 *.log
 *.out
 *.toc
+
+# Imporved over recon
+exemptable.txt
