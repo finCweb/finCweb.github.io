@@ -39,3 +39,10 @@
     font-weight: 200;
     font-size: 1.1em;
 }
+
+@media screen and (max-width: 1250px) {
+    .home-main-section-aboutus {
+        flex-direction: column;
+        width: 100%;
+    }
+  }
