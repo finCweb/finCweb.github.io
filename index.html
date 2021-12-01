@@ -4,58 +4,211 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
-    <title>
-        Finance Club, IIT Roorkee
-    </title>
-    <link rel="shortcut icon" href="images/favicon.ico" /> 
+    <title>Finance Club, IITR</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/cbb82af1d0.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
 </head>
-<body class="container full-height-grow">
-    <header class="main-header">
-        <a href="index.html" class="logo">
-            <img src="images/logo.png" width="64.14" height="60"/>
-        </a>
-        <nav class="main-nav">
-            <ul>
-                <li><a href="aboutus.html">About Us</a></li>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#"><img src="images/logo.png"/></a></div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="events.html">Events</a></li>
                 <li><a href="blogs.html">Blogs</a></li>
-                <li><a href="keywords.html">Keywords</a></li>
-                <li><a href="investment.html">Investment Section</a></li>
-                <li><a href="team.html">Team Members</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
-    </header>
-    <section class="home-main-section">
-        <div class="left-main">
-            <div>
-                <h1 style="display: grid;">
-                    <span class="finc-name">FINANCE<br>CLUB</span>
-                    <span class="iitr"><span style="color: #075A19;">IIT </span>₹OO₹K€€</span>
-                </h1>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
             </div>
-            <img src="images/iitr.png" width="440" height="105"/>
         </div>
-        <div class="right-main">
-            <span class="description">
-                A group to collaborate among finance<br> enthusiasts and foster 
-                a permanent<br> finance culture in the IITR campus.
-            </span>
-            <img src="images/home-design.png" width="401" height="227"/>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="row">
+                    <div class="column">
+                        <div class="left">
+                            <div class="text-1">FINANCE<br> CLUB</div>
+                            <div class="text-2">IIT <span class="typing"></span></div>
+                            <img src="images/home/iitr.png"/>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="right">
+                            <div class="text-3">
+                                A group to collaborate among finance
+                                enthusiasts and foster
+                                a permanent
+                                finance culture in the IITR campus
+                            </div>
+                            <img src="images/home/home-design.png"/>
+                        </div>
+                    </div>
+                </div>
+                <a href="#about"><i class="fas fa-arrow-down"></i></a>
+            </div>
         </div>
     </section>
-    <img src="images/bottom-design.png" width="auto" height="50" style="padding-bottom: 2px;"/>
+    
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Us</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <p>Finance Club, IIT Roorkee is a collaboration among the finance enthusiasts of the campus to foster a permanent culture of finance in IIT Roorkee.<br>
+                        Founded in 2018, it is one of the fastest-growing societies in IITR. Its passionate members have a keen interest in the fields of equity research, algorithmic trading, economics, quant research, financial risk management, corporate finance, and many others.<br>
+                        Being a road less taken, to develop and maintain a culture of finance in a technical institute is not an easy task. To accomplish this we invite several guest speakers to share their views and experiences of the financial world, collaborate with corporates to provide varied learning and practical experiences, conduct workshops, and competitions for the campus students. In addition to this, we regularly publish blogs and financial keywords through our social media handles. For the overall growth of the club, we actively take part in organizing lectures, tests, and discussions, so that the club members are up to date with the financial world.
+                    </p>
+                </div>
+                <div class="column right">
+                    <img src="/images/home/about-photo.png"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services section start -->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Our Work</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <!-- <i class="fas fa-quote-right"></i> -->
+                        <div class="text">Projects</div>
+                        <p>Members work on finance-related projects, one each semester with the aim of delivering the findings as a presentation with the other members
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <!-- <i class="fas fa-user-friends"></i> -->
+                        <div class="text">Competitions</div>
+                        <p>We conduct many finnace related competitions including the annual Quantathon, a diverse competition on quantitative finance
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <!-- <i class="fas fa-pen"></i> -->
+                        <div class="text">Talks</div>
+                        <p>We organise talks by calling in various financial experts. These offer a dive into financial topics, introducing students of IITR to new terms and concepts in the financial domain
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <!-- <i class="fas fa-quote-right"></i> -->
+                        <div class="text">Discussions</div>
+                        <p>We hold comprehensive and insightful discussions on some of the most happening finance-related topics for our members, wherein every member actively participates
+
+
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <!-- <i class="fas fa-user-friends"></i> -->
+                        <div class="text">Blogs</div>
+                        <p>We release blogs throughout the year on various financial topics and news. Through these blogs, we aim to explain the concepts and terms of the financial world in the easiest way possible
+
+                        </p>
+                        
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <!-- <i class="fas fa-pen"></i> -->
+                        <div class="text">Investment Section</div>
+                        <p>Soon, we would begin investing in the Indian equity markets with the help of capital raised from Finance Club Alumni</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Us</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <!-- <div class="text">Get in Touch</div> -->
+                    <p>We would love to hear from you. To remain updated about what we do, do check out our social media whose links are at the bottom of the page.</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">New Sac Building, IIT Roorkee</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">financeclubiitr@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Content" required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Send message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bottom">
+        <img class="bottom-img" src="images/bottom-design.png"/>
+    </div>
     <footer class="main-footer">
         <nav class="bottom-nav">
             <ul>
-                <li><a href="https://www.facebook.com/financeclubiitr" target="_blank"><img src="images/fb.png" height="35" width="35"/></a></li>
-                <li><a href="https://www.linkedin.com/company/finance-club-iit-roorkee/mycompany/" target="_blank"><img src="images/lin.png" height="35" width="35"/></a></li>
-                <li><a href="https://www.instagram.com/finclubiitr/" target="_blank"><img src="images/in.png" height="35" width="35"/></a></li>
-                <li><a href="https://medium.com/@financeclubiitr" target="_blank"><img src="images/med.png" height="35" width="35"/></a></li>
+                <li><a href="https://www.facebook.com/financeclubiitr" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/finance-club-iit-roorkee/mycompany/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/finclubiitr/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+                <li><a href="https://medium.com/@financeclubiitr" target="_blank"><i class="fab fa-medium"></i></a></li>
             </ul>
         </nav>
         <div class="made">Made with ❤️ by Finance Club, IITR</div>
-</div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

@@ -4,43 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheet">
-    <link href="index.css" rel="stylesheet">
-    <title>
-        Finance Club, IIT Roorkee: Events
-    </title>
-    <link rel="shortcut icon" href="images/favicon.ico" /> 
+    <title>Finance Club, IITR</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="events.css">
+    <script src="https://kit.fontawesome.com/cbb82af1d0.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
-<body class="container full-height-grow">
-    <header class="main-header">
-        <a href="index.html" class="logo">
-            <img src="images/logo.png" width="64.14" height="60"/>
-        </a>
-        <nav class="main-nav">
-            <ul>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="events.html">Events</a></li>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#"><img src="images/logo.png"/></a></div>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="#">Events</a></li>
                 <li><a href="blogs.html">Blogs</a></li>
-                <li><a href="keywords.html">Keywords</a></li>
-                <li><a href="investment.html">Investment Section</a></li>
-                <li><a href="team.html">Team Members</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
             </ul>
-        </nav>
-    </header>
-    <section class="home-main-section">
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <div class="max-width">
+            <div class="event">
+            <h2 class="title">R-Street Quant Challenge</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/events/rsqc.jpeg" alt="">
+                </div>
+                <div class="column right">
+                    <p>Big black screens and signals twinkling the scene. Have you ever been fascinated by the world of quantitative trading? How are these traders using mathematics and tech to execute those profitable trades!
+                        Do you, too, aspire to design and implement the models to price and trade securities? Get ready for a challenge then.
+                        You have a chance now to apply your technical knowledge in the world of quant finance and win a handsome award price. 
+                        Finance Club IITR comes with the R-Street Quant Challenge on the 175th anniversary of IIT Roorkee, where you will be able to showcase your quantitative skills for stock price prediction.
+                        </p>
+                    <a href="https://dare2compete.com/o/5xXpTGu?lb=lkmLo67">Register</a>
+                </div>
+            </div>
+            </div>
+            <div class="event">
+            <h2 class="title">R-Street Investment Challenge</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="images/events/rsic.jpeg" alt="">
+                </div>
+                <div class="column right">
+                    <p>Everyone wants to be a successful investor, but do you have the skills and confidence to be one?
+                        Have you ever wondered how big investment banks and traders identify which stocks and funds will skyrocket, and which will bite the dust?
+                        On the occasion of the 175th Anniversary of IIT Roorkee, Finance Club IITR is proud to present the R-Street Investment Challenge, where you can experience the intensity, depth and breadth of everything that goes behind in preparing a successful investment pitch!
+                        This is a great opportunity for those who are considering investment as a career, or just want to make some money for themselves!
+                        </p>
+                    <a href="https://dare2compete.com/o/o8jcJN0?lb=EJ7dDFm">Register</a>
+                </div>
+            </div>
+            </div>
+        </div>
     </section>
-    <img src="images/bottom-design.png" width="auto" height="50" style="padding-bottom: 2px;"/>
+
+    
+    <div class="bottom">
+        <img class="bottom-img" src="images/bottom-design.png"/>
+    </div>
     <footer class="main-footer">
         <nav class="bottom-nav">
             <ul>
-                <li><a href="https://www.facebook.com/financeclubiitr" target="_blank"><img src="images/fb.png" height="35" width="35"/></a></li>
-                <li><a href="https://www.linkedin.com/company/finance-club-iit-roorkee/mycompany/" target="_blank"><img src="images/lin.png" height="35" width="35"/></a></li>
-                <li><a href="https://www.instagram.com/finclubiitr/" target="_blank"><img src="images/in.png" height="35" width="35"/></a></li>
-                <li><a href="https://medium.com/@financeclubiitr" target="_blank"><img src="images/med.png" height="35" width="35"/></a></li>
+                <li><a href="https://www.facebook.com/financeclubiitr" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/finance-club-iit-roorkee/mycompany/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/finclubiitr/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+                <li><a href="https://medium.com/@financeclubiitr" target="_blank"><i class="fab fa-medium"></i></a></li>
             </ul>
         </nav>
         <div class="made">Made with ❤️ by Finance Club, IITR</div>
     </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
