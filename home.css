@@ -60,15 +60,16 @@
     color: #149C32;
 }
 
-.home .home-content a{
+/* .home .home-content a{
     color: #075A19;
     font-size: 30px;
-    padding-top: 120px;
+    padding-top: 100px;
+    margin-bottom: 80px;
 }
 
 .home .home-content a:hover{
     color: #149C32;
-}
+} */
 
 /* common styling */
 section{
