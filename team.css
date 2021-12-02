@@ -12,6 +12,9 @@
     margin: 20px;
   }
 
+  .square .position{
+    color: #222;
+  }
   .square p{
     width: 130px;
     height: 17px;
@@ -20,8 +23,8 @@
     font-family: Allerta;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 25px;
+    line-height: 30px;
     text-align: center;
     
     color: #075A19;
