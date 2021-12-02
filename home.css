@@ -60,16 +60,15 @@
     color: #149C32;
 }
 
-/* .home .home-content a{
+.home .home-content a{
     color: #075A19;
     font-size: 30px;
-    padding-top: 100px;
-    margin-bottom: 80px;
+    padding-top: 50px;
 }
 
 .home .home-content a:hover{
     color: #149C32;
-} */
+}
 
 /* common styling */
 section{
@@ -149,21 +148,23 @@ section .title::after{
 
 /* services section styling */
 .services .title{
-    color: #fff;
+    color: #075A19;
 }
 
 .services{
+    /* padding: 30px;
+    margin: 50px; */
     color: #fff;
-    background: #075A19;
-}
-
-.services .title::before{
     background: #fff;
 }
 
+.services .title::before{
+    background: #149C32;
+}
+
 .services .title::after{
-    color: #fff;
-    background: #075A19;
+    color: #149C32;
+    background: #fff;
     content: "what we do";
 }
 
@@ -172,7 +173,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #075A19;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -183,7 +184,7 @@ section .title::after{
 }
 
 .services .serv-content .card:hover{
-    background: #222;
+    background: #149C32;
 }
 
 .services .serv-content .card .box{
@@ -196,7 +197,7 @@ section .title::after{
 } 
 
 .services .serv-content .card i{
-    color: #075A19;
+    color: #fff;
     font-size: 50px;
 }
 
@@ -205,9 +206,13 @@ section .title::after{
 } 
 
 .services .serv-content .card .text{
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
     margin: 10px 0 7px 0;
+}
+
+.services .serv-content .card p{
+    font-size: 15px;
 }
 
 
@@ -222,6 +227,10 @@ section .title::after{
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+.contact .contact-content .left{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200px;
 }
 .contact .contact-content .left p{
     text-align: justify;
