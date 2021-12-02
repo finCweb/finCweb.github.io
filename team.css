@@ -1,10 +1,15 @@
 .team-row{
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .square {
     background-color: rgba(93, 187, 114, 0.3);
     border-radius: 100px 100px 20px 20px;
+    margin: 20px;
   }
 
   .square p{
